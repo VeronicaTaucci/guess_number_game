@@ -41,10 +41,10 @@
 </details>
 
 
-Create a new JavaScript file and link it using the <script> tag at the bottom of the <body> section.
-In the JavaScript file, define variables for the input field, the message area, and the buttons.
 <details>
-  <summary>--></summary>
+  <summary>
+Create a new JavaScript file and link it using the <script> tag at the bottom of the <body> section.
+In the JavaScript file, define variables for the input field, the message area, and the buttons.</summary>
   
 ```js
 const guessInput = document.getElementById('guess');
@@ -56,12 +56,12 @@ let exit = document.querySelector('.exitGame').addEventListener('click',exitGame
 ```
 </details>
 
-Define variables for the: 
+
+<details>
+  <summary>Define variables for the: 
 - random number (we will store our randomly generated number in case we will have to display it later on), 
 - number of guesses (we will store here the number of times it took till the number was guessed and display it later on), 
-- and a game over flag (this will be a boolean )
-<details>
-  <summary>--></summary>
+- and a game over flag (this will be a boolean )</summary>
   
 ```js
 
